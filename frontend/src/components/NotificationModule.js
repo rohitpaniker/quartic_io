@@ -37,10 +37,10 @@ const styles = {
     overflowY: 'scroll',
     width: '100%',
     height: '60%',
-    paddingRight: 17,
+    padding: '30px 17px 0px 0px',
   },
   msgStyle: {
-    color: '#000000',
+    color: 'rgb(177, 177, 177)',
     fontSize: 12,
     textAlign: 'left',
   },
@@ -48,7 +48,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     justifyContents: 'flex-start',
-    padding: '20px 0px 20px 0px',
+    padding: '20px 0px 0px 0px',
     margin: '0px 20px 0px 10px',
   },
   durationStyle: {
@@ -56,8 +56,10 @@ const styles = {
     fontWeight: 'bold',
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'flex-start',
+    justifyContent: 'space-between',
     fontSize: 12,
+    borderTop: '1px solid #E7E7E7',
+    paddingTop: '5px',
   },
 }
 
@@ -82,15 +84,17 @@ class NotificationModule extends Component {
             })}
         </div>
         <div className="notificationArea" style={styles.notificationArea}>
+          <a href="#" style={{ fontSize: 12, color: 'rgb(129, 184, 224)', textDecoration: 'none' }}> My Workspace > </a>
         {notificationObj &&
           notificationObj.data.map((e2, i2) => {
             return(
               <div key={i2} className="notificationListView" style={styles.notificationListView}>
                 <div className="duration" style={styles.durationStyle}>
-                  Just Now
+                  <div className="durationDetail" style={{ paddingTop: 10, color: '#6d6a6a' }}>Just Now</div>
+                  <div className="closeIco" style={{ color: 'rgb(177, 177, 177)', cursor: 'pointer' }}>X</div>
                 </div>
                 <div className="msg" style={styles.msgStyle}>
-                  {e2.msg} <a href={`${e2.url}`}> View Task </a>
+                  {e2.msg} <a href={`${e2.url}`} style={{ textDecoration: 'none', color: 'rgb(129, 184, 224)' }}> View Task > </a>
                 </div>
               </div>
             );
