@@ -26,11 +26,14 @@ Steps to install and run this application
 
 4. Use NotificationModule like this:
 
-$<NotificationModule
+
+```
+<NotificationModule
   notificationObj={this.state.notificationObj}
   visible={notifDropdownVisible}
 />
-$
+
+```
 
 5. notificationObj is where you pass object from backend. Check backend module in server.js to know the format
 
