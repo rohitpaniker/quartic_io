@@ -35,6 +35,6 @@ Steps to install and run this application
 
 ```
 
-5. notificationObj is where you pass object from backend. Check backend module in server.js to know the format
+5. notificationObj is where you pass object fetched from RESTful API from backend. Check backend module in server.js to know the format
 
 6. visible props takes true/false. If true, notification dropdown is visible else hidden
