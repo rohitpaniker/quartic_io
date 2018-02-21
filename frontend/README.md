@@ -22,7 +22,11 @@ Steps to install and run this application
 
 2. Copy NotificationModule.js and style.css in your own ReactJS project
 
-3. import the module : import { NotificationModule } from './components/NotificationModule';
+3. import the module :
+
+```
+import { NotificationModule } from './components/NotificationModule';
+```
 
 4. Use NotificationModule like this:
 
