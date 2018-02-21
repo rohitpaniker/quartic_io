@@ -1,0 +1,75 @@
+@media screen and (max-width: 950px) {
+/* STYLES GO HERE */
+  .contentDropDown {
+    width: 45% !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+/* STYLES GO HERE */
+  .contentDropDown {
+    width: 45% !important;
+  }
+}
+
+@media screen and (max-width: 650px) {
+/* STYLES GO HERE */
+  .contentDropDown {
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+/* STYLES GO HERE */
+  .contentDropDown {
+    width: 55% !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+/* STYLES GO HERE */
+  .contentDropDown {
+    width: 60% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+/* STYLES GO HERE */
+  .contentDropDown {
+    width: 65% !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+/* STYLES GO HERE */
+  .contentDropDown {
+    width: 75% !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+/* STYLES GO HERE */
+  .contentDropDown {
+    width: 85% !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+/* STYLES GO HERE */
+  .contentDropDown {
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 200px) and (min-width: 150px) {
+  .calendr {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 350px) and (min-width: 150px) {
+/* STYLES GO HERE */
+  .contentDropDown {
+    width: 100% !important;
+  }
+}
